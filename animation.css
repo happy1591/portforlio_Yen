@@ -1,0 +1,184 @@
+div.animation {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#first {
+  stroke-dasharray: 415px;
+  stroke-dashoffset: 415px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards;
+          animation: fadeInside 0.6s ease-in forwards;
+}
+
+#second {
+  stroke-dasharray: 438px;
+  stroke-dashoffset: 438px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.4s;
+          animation: fadeInside 0.6s ease-in forwards 0.4s;
+}
+
+#third {
+  stroke-dasharray: 393px;
+  stroke-dashoffset: 393px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.8s;
+          animation: fadeInside 0.6s ease-in forwards 0.8s;
+}
+
+#forth {
+  stroke-dasharray: 435px;
+  stroke-dashoffset: 435px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.2s;
+          animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#fifth {
+  stroke-dasharray: 394px;
+  stroke-dashoffset: 394px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.6s;
+          animation: fadeInside 0.6s ease-in forwards 1.6s;
+}
+
+#sixth {
+  stroke-dasharray: 393px;
+  stroke-dashoffset: 393px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2s;
+          animation: fadeInside 0.6s ease-in forwards 2s;
+}
+
+#seventh {
+  stroke-dasharray: 590px;
+  stroke-dashoffset: 590px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.4s;
+          animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+
+#eighth {
+  stroke-dasharray: 353px;
+  stroke-dashoffset: 353px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.8s;
+          animation: fadeInside 0.6s ease-in forwards 2.8s;
+}
+
+#nineth {
+  stroke-dasharray: 511px;
+  stroke-dashoffset: 511px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 3.2s;
+          animation: fadeInside 0.6s ease-in forwards 3.2s;
+}
+
+#tenth {
+  stroke-dasharray: 263px;
+  stroke-dashoffset: 263px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 3.6s;
+          animation: fadeInside 0.6s ease-in forwards 3.6s;
+}
+
+#eleventh {
+  stroke-dasharray: 588px;
+  stroke-dashoffset: 588px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards;
+          animation: fadeInside 0.6s ease-in forwards;
+}
+
+#twelveth {
+  stroke-dasharray: 272px;
+  stroke-dashoffset: 272px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.3s;
+          animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#thirteenth {
+  stroke-dasharray: 590px;
+  stroke-dashoffset: 590px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.6s;
+          animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#forteenth {
+  stroke-dasharray: 272px;
+  stroke-dashoffset: 272px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 0.9s;
+          animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#fifteenth {
+  stroke-dasharray: 337px;
+  stroke-dashoffset: 337px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.2s;
+          animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#sixteenth {
+  stroke-dasharray: 530px;
+  stroke-dashoffset: 530px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.5s;
+          animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#seventeenth {
+  stroke-dasharray: 275px;
+  stroke-dashoffset: 275px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 1.8s;
+          animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+#eighteenth {
+  stroke-dasharray: 491px;
+  stroke-dashoffset: 491px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.1s;
+          animation: fadeInside 0.6s ease-in forwards 2.1s;
+}
+
+#nineteenth {
+  stroke-dasharray: 530px;
+  stroke-dashoffset: 530px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.4s;
+          animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+
+#twentieth {
+  stroke-dasharray: 275px;
+  stroke-dashoffset: 275px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 2.7s;
+          animation: fadeInside 0.6s ease-in forwards 2.7s;
+}
+
+#twentyFirst {
+  stroke-dasharray: 438px;
+  stroke-dashoffset: 438px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 3s;
+          animation: fadeInside 0.6s ease-in forwards 3s;
+}
+
+#twentySecond {
+  stroke-dasharray: 367px;
+  stroke-dashoffset: 367px;
+  -webkit-animation: fadeInside 0.6s ease-in forwards 3.3s;
+          animation: fadeInside 0.6s ease-in forwards 3.3s;
+}
+
+@-webkit-keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+/*# sourceMappingURL=animation.css.map */
