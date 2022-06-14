@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #000000;
+  font-family: "avenir", Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url(./Avenir/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: "avenirBold";
+  src: url(./Avenir/AvenirLTStd-Black.otf);
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+header nav ul li {
+  padding: 1rem 4rem;
+}
+
+header nav ul li .index {
+  margin-right: 25rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  font-weight: bold;
+}
+
+.Intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.Intro .leftIntro {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 800px;
+          flex: 3 1 800px;
+  margin: 5rem 5rem;
+}
+
+.Intro .leftIntro h1 {
+  font-family: "avenirBold", Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.Intro .leftIntro p {
+  text-decoration: underline;
+  margin: 1.5rem;
+}
+
+.Intro .rightProfile {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  margin: 5rem 1rem;
+}
+
+.Intro .rightProfile img {
+  border-radius: 45%;
+  width: 20vw;
+}
+
+@media screen and (max-width: 1100px) {
+  header nav {
+    border-bottom: 0.7px solid black;
+  }
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav ul li {
+    padding: 1rem 0rem;
+    text-align: center;
+  }
+  header nav ul li .index {
+    margin-right: 0rem;
+    text-align: center;
+  }
+  main .Intro .rightProfile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem 0rem;
+  }
+  main .Intro .rightProfile img {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
+    width: 50vw;
+  }
+  main .Intro .leftIntro {
+    margin: 0rem 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .Intro .leftIntro p {
+    margin-left: 40vw;
+    margin-bottom: 1.5rem;
+  }
+  main .Intro .leftIntro h1 {
+    font-size: 2.3rem;
+  }
+}
+
+main section h1 {
+  font-family: "avenirBold", Arial, Helvetica, sans-serif;
+  font-size: 8rem;
+}
+
+main section h2 {
+  font-family: "avenirBold", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+}
+
+main section .title h1,
+main section .title h2 {
+  display: inline-block;
+}
+
+main section .box-content {
+  list-style-type: none;
+}
+
+main section .box-content li a {
+  text-decoration: none;
+  font-family: "avenirBold", Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+main section #arrow {
+  width: 1.5vw;
+  height: 3vh;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+main section .box1Left {
+  width: 50%;
+  float: left;
+}
+
+main section .box1Right {
+  width: 3px;
+  background-color: #000000;
+}
+
+main section .playwater {
+  width: 45%;
+  float: left;
+}
+
+main section .playwater img {
+  margin: 7rem 2rem;
+  width: 20vw;
+}
+
+main section .box2Right {
+  width: 55%;
+  float: right;
+  margin: 10rem 0rem;
+}
+
+main section .box2Right .text2 {
+  width: 20%;
+  float: left;
+}
+
+main section .box2Right .arrow {
+  width: 80%;
+  float: right;
+}
+
+main section .box3Left {
+  width: 55%;
+  height: 400px;
+  float: left;
+}
+
+main section .seaview {
+  width: 45%;
+  float: right;
+}
+
+main section .seaview img {
+  width: 25vw;
+  margin: 2rem 2rem;
+}
+
+main section .box4Left {
+  width: 50%;
+  float: left;
+}
+
+main section .box4Right {
+  width: 50%;
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
